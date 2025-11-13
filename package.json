@@ -1,0 +1,20 @@
+{
+  "name": "nectarin-auth-bot-webhook",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "dev": "USE_POLLING=true node bot.js",
+    "set-webhook": "node scripts/setWebhook.mjs",
+    "delete-webhook": "node scripts/deleteWebhook.mjs"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.13",
+    "dotenv": "^16.4.5",
+    "lowdb": "^7.0.1",
+    "telegraf": "^4.16.3"
+  }
+}
