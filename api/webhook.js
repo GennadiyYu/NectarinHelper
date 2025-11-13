@@ -1,5 +1,5 @@
 // Explicit runtime for Vercel Function
-export const config = { runtime: 'nodejs20.x' };
+export const config = { runtime: 'nodejs' };
 
 import 'dotenv/config';
 import { bot, webhookPath } from '../bot.js';
